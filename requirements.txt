@@ -1,5 +1,5 @@
 python-dotenv
 pinecone
 openai
-google
+google-genai
 typing-extensions
