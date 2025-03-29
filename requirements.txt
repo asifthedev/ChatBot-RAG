@@ -1,12 +1,10 @@
 # Core dependencies
 python-dotenv==1.0.1
-streamlit==1.38.0
-pandas==2.2.2
 
 # API clients
-pinecone-client==5.0.1
+pinecone==5.0.1
 openai==1.46.1
-google-generativeai==0.8.2
+google==0.8.2
 
 # Typing and utilities
 typing-extensions==4.12.2
