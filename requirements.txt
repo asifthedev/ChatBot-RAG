@@ -1,10 +1,5 @@
-# Core dependencies
-python-dotenv==1.0.1
-
-# API clients
-pinecone==5.0.1
-openai==1.46.1
-google==0.8.2
-
-# Typing and utilities
-typing-extensions==4.12.2
+python-dotenv
+pinecone
+openai
+google
+typing-extensions
