@@ -71,7 +71,6 @@ def generate_response(google_client: genai.Client, input_text: str, context: Dic
 # Main app logic
 def main():
     """Main function to run the Streamlit app."""
-    st.title("UK Mega Shop - Customer Support Chatbot")
 
     # Load configuration and initialize clients
     config = load_config()
@@ -85,6 +84,8 @@ def main():
     # Initialize chat history
     if "messages" not in st.session_state:
         st.session_state.messages = []
+        st.session_state.messages.append({"role":"human", content: "Does the website offer Cash on Delivery (COD)"})
+        st.session_state.messages.append({"role":"ai", content: "Thanks for your query! Currently, we do not offer Cash on Delivery (COD) on our website. However, we are considering implementing it in the future."})
 
     # Display chat history
     for message in st.session_state.messages:
