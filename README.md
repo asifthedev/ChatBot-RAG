@@ -118,7 +118,3 @@ Install with:
 ```bash
 pip install -r requirements.txt
 ```
-
-## Question?
-
-Contact our tech lead via email or open an issue on GitHub. This tool is ready to make our customer support faster and better—let’s get it rolling!
